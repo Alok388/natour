@@ -1,0 +1,50 @@
+
+@keyframes moveLeft{
+    /* initial stage */
+    0% {
+        opacity: 0;
+        transform: translateX(-8rem); /* starting text animation should start from left side of its original position */
+    }
+/* after middle stage */
+    80%{
+        transform: translateX(0.6rem); /*move few rems more to its right from prev position */
+    }
+     /* end */
+    100%{
+        opacity: 1;
+        transform: translateX(0);  /* come back to original position */
+    }
+}
+
+
+@keyframes moveRight{
+    /* initial stage */
+    0% {
+        opacity: 0;
+        transform: translateX(8rem); /* starting text animation should start from left side of its original position */
+    }
+/* after middle stage */
+    80%{
+        transform: translateX(-0.6rem); /*move few rems more to its right from prev position */
+    }
+     /* end */
+    100%{
+        opacity: 1;
+        transform: translateX(0);  /* come back to original position */
+    }
+}
+
+
+@keyframes moveBtnBottom{
+    /* initial stage */
+    0% {
+        opacity: 0;
+        transform: translateY(3rem); 
+    }
+
+     /* end */
+    100%{
+        opacity: 1;
+        transform: translateY(0);  /* come back to original position */
+    }
+}
